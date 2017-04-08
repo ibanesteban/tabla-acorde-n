@@ -1,0 +1,39 @@
+table{
+           margin:0 auto;
+           width:75%;
+           margin-top:1%;
+        } 
+    th{
+        background-color:black;
+        color:white;
+        text-align:center;
+        width:25%;
+    }
+    tr,td
+        {
+            
+            text-align:center;
+            border-bottom: 1px solid #ddd;
+        }
+   
+    
+    td{
+        width:25%;
+    }
+    tr.acordeon{
+        font-size:1.25em;
+    }
+    tr.acordeon:hover{
+        cursor:pointer;
+    }
+   
+    input[type=button]{
+        background-color:black;
+        color:white;
+        border:2px solid black;
+    }
+    input[type=button]:hover{
+        background-color:white;
+        color:black;
+        cursor:pointer;
+    }

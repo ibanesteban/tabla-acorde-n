@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Tabla html desplegable como un acordeón pulsando las filas principales">
+    <meta name="keywords" content="tabla html, tabla css, acordeón, accordion, javascript">
+    <meta name="author" content="Iban Esteban">
+    <title>Tabla Acordeón</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<!-- CABECERA DE LA TABLA-->
+<table>
+   <thead>
+       <th>Título</th>
+       <th>Fecha Fin</th>
+       <th>Estado</th>
+       <th>Pujas</th>
+   </thead>
+    
+</table>
+<!-- TABLA fila-proyecto PARA CADA PROYECTO-->
+<table class="fila-proyecto">
+                <tbody>
+                   <!-- clase accordion para los datos de cada proyecto-->
+                    <tr class="acordeon">
+                        <td>Web Empresa</td>
+                        <td>22/06/2017</td>
+                        <td>En proceso</td>
+                        <td>2</td>
+                    </tr>
+                       <!-- <tr> sin clase para las PUJAS de el proyecto -->
+                        <tr>
+                            <td>Primera</td>
+                            <td>22/06/2017</td>
+                            <td>1.500</td>
+                            <td><input type="button" value="Aceptar"></td>
+                        </tr>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>22/06/2017</td>
+                            <td>1.500€</td>
+                            <td><input type="button" value="Aceptar"></td>
+                        </tr>
+                    
+                </tbody>
+</table>
+
+<!-- TABLA fila-proyecto PARA CADA PROYECTO-->
+<table class="fila-proyecto">
+                <tbody>
+                   <!-- clase accordion para los datos de cada proyecto-->
+                    <tr class="acordeon">
+                        <td>Android App</td>
+                        <td>22/06/2017</td>
+                        <td>En proceso</td>
+                        <td>4</td>
+                    </tr>
+                       <!-- <tr> sin clase para las PUJAS de el proyecto -->
+                        <tr>
+                            <td>Primera</td>
+                            <td>22/06/2017</td>
+                            <td>1.500€</td>
+                            <td><input type="button" value="Aceptar"></td>
+                        </tr>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>22/06/2017</td>
+                            <td>1.500€</td>
+                            <td><input type="button" value="Aceptar"></td>
+                        </tr>
+                        <tr>
+                            <td>Tercera</td>
+                            <td>22/06/2017</td>
+                            <td>1.500€</td>
+                            <td><input type="button" value="Aceptar"></td>
+                        </tr>
+                        <tr>
+                            <td>Cuarta</td>
+                            <td>22/06/2017</td>
+                            <td>1.500€</td>
+                            <td><input type="button" value="Aceptar"></td>
+                        </tr>
+                    
+                </tbody>
+</table>
+          
+
+
+</body>
+</html>
